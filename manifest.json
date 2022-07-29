@@ -1,10 +1,10 @@
 {
-  "name": "Example Remap",
+  "name": "Kawa",
   "version": "1.0",
   "manifest_version": 3,
   "description": "Kawa keyboard layout remapped from US English",
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": ["background.js"]
   },
   "permissions": [
     "input"
